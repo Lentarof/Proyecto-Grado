@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.XR.ARFoundation;
 
 public class InputManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class InputManager : MonoBehaviour
 
     List<ARRaycastHit> _hits = new List<ARRaycastHit>();
 
+    private Touch touch;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +22,27 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        touch = Input.GetTouch(0);
+        if (Input.touchCount < 0 || touch.phase != TouchPhase.Began)
+            return;
+
+        if (IsPointerOverUI(touch)) return;
+
+        Ray ray = arCam.ScreenPointToRay(touch.position);  //Presionand la pantalla del telefono donde se originara el objeto
+        if (_raycastManager.Raycast(ray, _hits))
         {
-            Ray ray = arCam.ScreenPointToRay(Input.mousePosition);  //Presionand la pantalla del telefono donde se originara el objeto
-            if (_raycastManager.Raycast(ray, _hits))
-            {
-                Pose pose = _hits[0].pose;            //Pose da la posicion del objeto particular
-                Instantiate(DataHandler.Instance.plant, pose.position, pose.rotation);
-            }
+           Pose pose = _hits[0].pose;            //Pose da la posicion del objeto particular
+           Instantiate(DataHandler.Instance.plant, pose.position, pose.rotation);
         }
+        
+    }
+
+    bool IsPointerOverUI(Touch touch)
+    {
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+        eventData.position = new Vector2(touch.position.x, touch.position.y);   //Todo esto con referente a la pantalla en donde presionamos
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+        return results.Count > 0;
     }
 }
