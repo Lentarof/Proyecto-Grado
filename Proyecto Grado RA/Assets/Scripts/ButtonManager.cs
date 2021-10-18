@@ -7,8 +7,32 @@ public class ButtonManager : MonoBehaviour
 {
     private Button btn;
 
-    public GameObject plant;
-    // Start is called before the first frame update
+    //public GameObject plant;
+
+    //Imagen contiene el Sprite 
+    //RawImage es el script del objeto que contiene el Sprite
+    [SerializeField]private RawImage buttonImage;
+
+    //creamos el ID
+    private int _itemId;
+    private Sprite _buttonTexture;
+
+    //Esto saca del ScriptableObject
+    public Sprite ButtonTexture
+    {
+        set
+        {
+            _buttonTexture = value;
+            buttonImage.texture = _buttonTexture.texture;
+        }
+    }
+
+    public int ItemId
+    {
+        set { _itemId = value; }
+    }
+
+
     void Start()
     {
         btn = GetComponent<Button>();
@@ -35,7 +59,8 @@ public class ButtonManager : MonoBehaviour
     void SelectObject() 
     {   //Cuando clickeemos el boton
         //Es aca donde se cambiar la variable arObj que esta en InputManager
-
-        DataHandler.Instance.plant = plant;
+        // DataHandler.Instance.plant = plant;
+        //Se le esta pasando el Id del Item
+        DataHandler.Instance.SetPlant(_itemId);
     }
 }

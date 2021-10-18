@@ -41,7 +41,7 @@ public class InputManager : MonoBehaviour
             Instantiate(DataHandler.Instance.plant, pose.position, pose.rotation);
          }*/
 
-        Instantiate(DataHandler.Instance.plant, pose.position, pose.rotation);
+        Instantiate(DataHandler.Instance.GetPlant(), pose.position, pose.rotation);
 
     }
 
