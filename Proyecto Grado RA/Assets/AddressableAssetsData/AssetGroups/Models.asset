@@ -31,6 +31,20 @@ MonoBehaviour:
     - Plants
     m_MainAsset: {fileID: 11400000, guid: ad3ec98dfc4dce545b27475913aa5856, type: 2}
     m_TargetAsset: {fileID: 11400000, guid: ad3ec98dfc4dce545b27475913aa5856, type: 2}
+  - m_GUID: bf4f397982df1dc49a8b83910142dc87
+    m_Address: Assets/AddressableAssets/Items/Matico.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Plants
+    m_MainAsset: {fileID: 11400000, guid: bf4f397982df1dc49a8b83910142dc87, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: bf4f397982df1dc49a8b83910142dc87, type: 2}
+  - m_GUID: 762c9b92915aacc48b1f8239244f14a9
+    m_Address: Assets/AddressableAssets/Items/WiraWira.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Plants
+    m_MainAsset: {fileID: 11400000, guid: 762c9b92915aacc48b1f8239244f14a9, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 762c9b92915aacc48b1f8239244f14a9, type: 2}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 594fa8d943b64db43889dcb3daa4b3ec, type: 2}
   m_SchemaSet:

@@ -16,7 +16,7 @@ public class DataHandler : MonoBehaviour
     [SerializeField] private GameObject buttonContainer;
     //Almacena todos los Items
     [SerializeField] private List<Item> _items;
-
+    //Este sera el nombre de los Items
     [SerializeField] private String label;
 
 
@@ -85,6 +85,7 @@ public class DataHandler : MonoBehaviour
         return plant;
     }
 
+    //Esta parte trabaja con Addresable
     //Obtener los Assets del cloud
     public async Task Get(String label)
     {

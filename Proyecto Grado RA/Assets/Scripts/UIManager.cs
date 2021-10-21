@@ -53,6 +53,7 @@ public class UIManager : MonoBehaviour
     //Metodo por el cual pasaremos el boton y verificaremos si esta siendo presionado por el raycast
     public bool OnEntered (GameObject button)
     {
+        //Lista creada de Raycast
         List<RaycastResult> results = new List<RaycastResult>();
         raycaster.Raycast(pData, results);
 
