@@ -18,5 +18,14 @@ public class Menu : MonoBehaviour
         Application.Quit();
     }
 
+    public void BackMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void EraseObject()
+    {
+        
+    }
 
 }
