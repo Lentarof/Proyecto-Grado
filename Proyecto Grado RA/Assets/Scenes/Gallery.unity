@@ -579,6 +579,7 @@ GameObject:
   - component: {fileID: 888903259}
   - component: {fileID: 888903258}
   - component: {fileID: 888903262}
+  - component: {fileID: 888903263}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -681,6 +682,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectionPoint: {fileID: 1440098441}
+--- !u!114 &888903263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888903257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8597bbd4edf8fec45ab3b820cd8932c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &907015724
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +909,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 893.73755, y: 35.79004}
-  m_SizeDelta: {x: 200.7656, y: 87.9299}
+  m_SizeDelta: {x: 257.9075, y: 87.9299}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1011150641
 MonoBehaviour:
@@ -941,7 +954,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1011150642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 888903263}
+        m_TargetAssemblyTypeName: DestroyObject, Assembly-CSharp
+        m_MethodName: DestroyGameObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlantGallery
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1011150642
 MonoBehaviour:
   m_ObjectHideFlags: 0

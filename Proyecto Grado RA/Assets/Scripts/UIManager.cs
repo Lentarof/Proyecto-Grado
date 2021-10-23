@@ -60,7 +60,7 @@ public class UIManager : MonoBehaviour
         
         foreach (RaycastResult result  in results)
         {
-            //podemos buscar a traves de la lista si el resultado el el boton
+            //podemos buscar a traves de la lista si el resultado es el boton
             if (result.gameObject == button )
             {
                 return true;

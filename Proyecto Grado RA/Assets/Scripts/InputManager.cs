@@ -17,7 +17,7 @@ public class InputManager : ARBaseGestureInteractable
     [SerializeField] private GameObject crosshair;
 
     List<ARRaycastHit> _hits = new List<ARRaycastHit>();
-
+    
     private Touch touch;
     private Pose pose;
     // Start is called before the first frame update
@@ -106,7 +106,7 @@ public class InputManager : ARBaseGestureInteractable
         List<RaycastResult> results = new List<RaycastResult>();
         EventSystem.current.RaycastAll(eventData, results);
         return results.Count > 0;
-    }
+   }
     
     //messure AR para tener exactitud al momento de colocar el objeto, en donde colocar el crosshair
     void CrosshairCalculation() 
