@@ -7,7 +7,9 @@ public class PlacementWithManySelectionController : MonoBehaviour
 {
     [SerializeField] private Camera arCamera;
 
-    [SerializeField] private PlacementObject[] placedObjects;
+    [SerializeField] private PlacementObjectCanvas placeCanvas;
+
+   // [SerializeField] private PlacementObject[] placedObjects;
     
     private Vector2 touchPosition = default;
     // Start is called before the first frame update
@@ -30,17 +32,22 @@ public class PlacementWithManySelectionController : MonoBehaviour
                 RaycastHit hitObject;
                 if (Physics.Raycast(ray, out hitObject))
                 {
-                    PlacementObject placementObject= hitObject.transform.GetComponent<PlacementObject>();
-                    if (placementObject != null)
+         //           PlacementObject placementObject= hitObject.transform.GetComponent<PlacementObject>();
+           //         if (placementObject != null)
                     {
-                        ChangeSelectedObject(placementObject);
+                   //     ChangeSelectedObject(placementObject);
                     }
                 }
             }
         }
     }
 
-    void ChangeSelectedObject(PlacementObject selected)
+    public void CanvasS()
+    {
+        placeCanvas.ToggleCanvas();
+    }
+
+   /* void ChangeSelectedObject(PlacementObject selected)
     {
         foreach (var current in placedObjects)
         {
@@ -54,5 +61,5 @@ public class PlacementWithManySelectionController : MonoBehaviour
             }
         }
         
-    }
+    }*/
 }
