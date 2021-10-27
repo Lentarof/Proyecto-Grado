@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlantGallery
+  - Floor
+  - House
   layers:
   - Default
   - TransparentFX
