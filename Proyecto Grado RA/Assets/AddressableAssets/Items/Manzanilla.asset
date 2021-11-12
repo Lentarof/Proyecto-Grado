@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Manzanilla
   m_EditorClassIdentifier: 
   itemName: Manzanilla
-  itemPrefab: {fileID: 7846923725853271706, guid: 6dce0e15d009ed044957fd65fb57b047, type: 3}
+  itemPrefab: {fileID: 2137136984234163318, guid: f19c4ba68d8264040b92be02574c37ed, type: 3}
   itemImage: {fileID: 21300000, guid: 62f7fedf3d2fe3043b5208dbe2aa27ad, type: 3}

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 16282 MB
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16282 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Gr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50255
+57700
 Successfully changed project path to: D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Grado RA
 D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Grado RA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/Unity2019hub/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity2019hub/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001957 seconds.
+Registered in 0.004460 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.073 seconds
+- Completed reload, in  7.193 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3073ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (7193ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (588ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (769ms)
+			LoadAssemblies (178ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
+			SetupTypeCache (261ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (286ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005431 seconds.
+Registered in 0.014392 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.856 seconds
+- Completed reload, in  2.077 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1857ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (2079ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1575ms)
-			LoadAssemblies (144ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1812ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (412ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (802ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (974ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (313ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (316ms)
+				ProcessInitializeOnLoadMethodAttributes (459ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.9 MB.
-System memory in use after: 132.0 MB.
+Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.9 MB.
+System memory in use after: 178.1 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3231.
-Total: 5.585400 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.172800 ms MarkObjects: 4.920300 ms  DeleteObjects: 0.138300 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 5.290400 ms (FindLiveObjects: 0.467700 ms CreateObjectMapping: 0.152100 ms MarkObjects: 4.527200 ms  DeleteObjects: 0.142200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,113 +132,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/AguaHDRI.fbx
-  artifactKey: Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AguaHDRI.fbx using Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3364ccaf31b5d9d88cb3bf68e580f764') in 0.816676 seconds 
-  Import took 0.864630 seconds .
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a6f19ae830c3c51c0a1b27a9ecacf') in 1.042160 seconds 
+  Import took 1.049029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 624.194289 seconds.
-  path: Assets/Prefabs/AguaHDRI.fbx
-  artifactKey: Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AguaHDRI.fbx using Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c8f97d411f7538e549c741aa14dcbe') in 0.058634 seconds 
-  Import took 0.127946 seconds .
+  Time since last request: 2798.095112 seconds.
+  path: Assets/Prefabs/Manzanilla.prefab
+  artifactKey: Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Manzanilla.prefab using Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc067bdf75d88fd6b0db96c01dd19f4') in 0.086862 seconds 
+  Import took 0.094619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 180.049713 seconds.
-  path: Assets/Prefabs/AguaHDRI.fbx
-  artifactKey: Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AguaHDRI.fbx using Guid(5c949de6980cb0e47b09009719e8d4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997ecb592eabc1a74e341084e541c99c') in 0.047684 seconds 
-  Import took 0.071176 seconds .
+  Time since last request: 1350.740628 seconds.
+  path: Assets/Prefabs/Matico.prefab
+  artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1aa2926e48cc243dbdfbd7b22cb6f1') in 0.026424 seconds 
+  Import took 0.033569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2807.602338 seconds.
-  path: Assets/AguaHDRI.fbx
-  artifactKey: Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AguaHDRI.fbx using Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6909439eafd1b9df98269e555300b11d') in 0.065308 seconds 
-  Import took 0.109435 seconds .
+  Time since last request: 0.004066 seconds.
+  path: Assets/Prefabs/Matico.prefab
+  artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1aa2926e48cc243dbdfbd7b22cb6f1') in 0.019277 seconds 
+  Import took 0.024636 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.845423 seconds.
-  path: Assets/Prefabs/AguaHDRI.fbx
-  artifactKey: Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AguaHDRI.fbx using Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74876ab0c60b24e3e12bdd779cf8e66f') in 0.041123 seconds 
-  Import took 0.056626 seconds .
+  Time since last request: 5936.767324 seconds.
+  path: Assets/Prefabs/Ozonoterapia.prefab
+  artifactKey: Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ozonoterapia.prefab using Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03451b9b170d761e1ee46808ffd720b0') in 2.081297 seconds 
+  Import took 2.094067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.916714 seconds.
-  path: Assets/Prefabs/AguaHDRI.fbx
-  artifactKey: Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AguaHDRI.fbx using Guid(14004b716ca2b394991cb8c0613bea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff8ab31c1f79e95da0b02f81146899e') in 0.039194 seconds 
-  Import took 0.052250 seconds .
+  Time since last request: 10.821633 seconds.
+  path: Assets/Prefabs/WiraWira.prefab
+  artifactKey: Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WiraWira.prefab using Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfea87e5f7863d6262f0682f15292704') in 0.190255 seconds 
+  Import took 0.197132 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6062.316690 seconds.
-  path: Assets/Prefabs/Pool.fbx
-  artifactKey: Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.fbx using Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401c65c66453dd14bfd79582131033e1') in 0.097212 seconds 
-  Import took 0.193486 seconds .
+  Time since last request: 695.504502 seconds.
+  path: Assets/AddressableAssets/Items/Ozonoterapia.asset
+  artifactKey: Guid(136e8c565ea806d42be5708691d51b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssets/Items/Ozonoterapia.asset using Guid(136e8c565ea806d42be5708691d51b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5ed80e060aacca691d35342e143638') in 0.038310 seconds 
+  Import took 0.046160 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 4.527544 seconds.
-  path: Assets/Prefabs/Pool.fbx
-  artifactKey: Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.fbx using Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a720a0d383afd7c9ca6664ea149831bd') in 0.046480 seconds 
-  Import took 0.071764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.132265 seconds.
-  path: Assets/Material/water-texture-rough-sea.jpg
-  artifactKey: Guid(4fea945c3eaccab4992ac90ca7f9f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/water-texture-rough-sea.jpg using Guid(4fea945c3eaccab4992ac90ca7f9f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677e6c65613433c34e357604cab9c0f0') in 0.093013 seconds 
-  Import took 0.176638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.789462 seconds.
-  path: Assets/Material/water-texture-rough-sea.jpg
-  artifactKey: Guid(4fea945c3eaccab4992ac90ca7f9f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/water-texture-rough-sea.jpg using Guid(4fea945c3eaccab4992ac90ca7f9f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc5a2dec08fdcd0c7b6a5d755e3c448') in 0.020435 seconds 
-  Import took 0.046347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.993610 seconds.
-  path: Assets/Prefabs/Pool.fbx
-  artifactKey: Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.fbx using Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2481a5d0d8c3a328525bbbfad0379d8') in 0.063745 seconds 
-  Import took 0.083911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 309.780441 seconds.
-  path: Assets/Prefabs/Pool.fbx
-  artifactKey: Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.fbx using Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2785e9791e898259ca66ce99a8d50606') in 0.061799 seconds 
-  Import took 0.108665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.374642 seconds.
-  path: Assets/Prefabs/Pool.fbx
-  artifactKey: Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.fbx using Guid(6ae54609200cee545978f93fb1f71f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a919ef9fb6744cea8bdfebf95d74839c') in 0.047386 seconds 
-  Import took 0.143513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 262.292499 seconds.
-  path: Assets/Prefabs/Pool.prefab
-  artifactKey: Guid(a2ee7fb6efdd46f4fbd43091ee3becf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Pool.prefab using Guid(a2ee7fb6efdd46f4fbd43091ee3becf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee29cbfe9f41c940e6253ab48384434') in 0.038030 seconds 
-  Import took 0.057383 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

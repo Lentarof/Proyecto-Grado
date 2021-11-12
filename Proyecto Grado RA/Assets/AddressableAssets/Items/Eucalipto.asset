@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Eucalipto
   m_EditorClassIdentifier: 
   itemName: Eucalipto
-  itemPrefab: {fileID: 4756223798916776287, guid: 19e276a7ef0a3b747862883cb4b9cfc8, type: 3}
+  itemPrefab: {fileID: 8726787153881464757, guid: 3526e7b57e5ed4240b8ef501eb1672b1, type: 3}
   itemImage: {fileID: 21300000, guid: a390e2a325c206d4facd6a4a041fb218, type: 3}
