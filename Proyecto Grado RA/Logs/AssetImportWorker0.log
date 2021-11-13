@@ -15,11 +15,11 @@ D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Gr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57700
+52681
 Successfully changed project path to: D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Grado RA
 D:/UNIVERSIDAD/PROYECTO GRADO/Proyecto de grado Unity/Proyecto-Grado/Proyecto Grado RA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.25 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/Unity2019hub/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity2019hub/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity2019hub/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004460 seconds.
+Registered in 0.001747 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 86.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 75.20 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.193 seconds
+- Completed reload, in  3.343 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7193ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (3344ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (178ms)
+		EndReloadAssembly (666ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (286ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (255ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014392 seconds.
+Registered in 0.005539 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.077 seconds
+- Completed reload, in  2.195 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2079ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1812ms)
-			LoadAssemblies (218ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1848ms)
+			LoadAssemblies (168ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
+			SetupTypeCache (479ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (974ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (986ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (459ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (430ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2689 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 177.9 MB.
-System memory in use after: 178.1 MB.
+Unloading 2708 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.4 MB.
+System memory in use after: 144.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3346.
-Total: 5.290400 ms (FindLiveObjects: 0.467700 ms CreateObjectMapping: 0.152100 ms MarkObjects: 4.527200 ms  DeleteObjects: 0.142200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4748.
+Total: 6.641900 ms (FindLiveObjects: 0.401200 ms CreateObjectMapping: 0.172300 ms MarkObjects: 5.941300 ms  DeleteObjects: 0.125700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,54 +134,334 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Prefabs/Aromaterapia.prefab
   artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35a6f19ae830c3c51c0a1b27a9ecacf') in 1.042160 seconds 
-  Import took 1.049029 seconds .
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e711e506aab2963d345a6f46e7117f5e') in 1.086302 seconds 
+  Import took 1.093967 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2798.095112 seconds.
+  Time since last request: 0.823212 seconds.
+  path: Assets/Prefabs/Eucalipto.prefab
+  artifactKey: Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eucalipto.prefab using Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d483eeb936e18f2aa83eaa7a9e6152') in 0.110973 seconds 
+  Import took 0.118072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.843620 seconds.
+  path: Assets/Prefabs/Eucalipto.prefab
+  artifactKey: Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eucalipto.prefab using Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15dcb8650c9c4fa5b62effee4c14a5e') in 0.033088 seconds 
+  Import took 0.040669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.908062 seconds.
+  path: Assets/Prefabs/Hidroterapia.prefab
+  artifactKey: Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hidroterapia.prefab using Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a381e5a47093f816e9810aac580a49') in 0.501149 seconds 
+  Import took 0.508251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.884719 seconds.
+  path: Assets/Prefabs/Hidroterapia.prefab
+  artifactKey: Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hidroterapia.prefab using Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a519b95ccb456011b48c8df462f7e') in 0.252144 seconds 
+  Import took 0.260045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.798197 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4695beec714d5ca8d38a2078e7469c') in 0.595555 seconds 
+  Import took 0.608013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.771009 seconds.
   path: Assets/Prefabs/Manzanilla.prefab
   artifactKey: Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Manzanilla.prefab using Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc067bdf75d88fd6b0db96c01dd19f4') in 0.086862 seconds 
-  Import took 0.094619 seconds .
+Start importing Assets/Prefabs/Manzanilla.prefab using Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f51bc70f76a8282a83cbc3240d2ee5') in 0.089339 seconds 
+  Import took 0.099705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1350.740628 seconds.
+  Time since last request: 105.239040 seconds.
   path: Assets/Prefabs/Matico.prefab
   artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1aa2926e48cc243dbdfbd7b22cb6f1') in 0.026424 seconds 
-  Import took 0.033569 seconds .
+Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a4fdacf71ed17232d17dc3b7b59be7') in 0.026674 seconds 
+  Import took 0.033178 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004066 seconds.
-  path: Assets/Prefabs/Matico.prefab
-  artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1aa2926e48cc243dbdfbd7b22cb6f1') in 0.019277 seconds 
-  Import took 0.024636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5936.767324 seconds.
+  Time since last request: 203.065648 seconds.
   path: Assets/Prefabs/Ozonoterapia.prefab
   artifactKey: Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ozonoterapia.prefab using Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03451b9b170d761e1ee46808ffd720b0') in 2.081297 seconds 
-  Import took 2.094067 seconds .
+Start importing Assets/Prefabs/Ozonoterapia.prefab using Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2080b7dbdc8b8c9e7b4db06874fa3508') in 2.126972 seconds 
+  Import took 2.141581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.821633 seconds.
+  Time since last request: 38.567005 seconds.
   path: Assets/Prefabs/WiraWira.prefab
   artifactKey: Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WiraWira.prefab using Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfea87e5f7863d6262f0682f15292704') in 0.190255 seconds 
-  Import took 0.197132 seconds .
+Start importing Assets/Prefabs/WiraWira.prefab using Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1593b7806430632bbf64d71a77b8d8') in 0.552024 seconds 
+  Import took 0.564200 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 74.416600 ms (FindLiveObjects: 2.068200 ms CreateObjectMapping: 0.210000 ms MarkObjects: 72.071900 ms  DeleteObjects: 0.064900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16488.811782 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb43b398edea87a909d0b65b9f9000c4') in 0.895475 seconds 
+  Import took 0.917418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 695.504502 seconds.
-  path: Assets/AddressableAssets/Items/Ozonoterapia.asset
-  artifactKey: Guid(136e8c565ea806d42be5708691d51b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddressableAssets/Items/Ozonoterapia.asset using Guid(136e8c565ea806d42be5708691d51b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5ed80e060aacca691d35342e143638') in 0.038310 seconds 
-  Import took 0.046160 seconds .
+  Time since last request: 199.775780 seconds.
+  path: Assets/Prefabs/Eucalipto.prefab
+  artifactKey: Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eucalipto.prefab using Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c65a074853f5ebfa80c00b2a5c503b0') in 0.035597 seconds 
+  Import took 0.043603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1460.213815 seconds.
+  path: Assets/Prefabs/Eucalipto.prefab
+  artifactKey: Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eucalipto.prefab using Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a02110bd9f20a54f1368b743073ce3') in 0.028840 seconds 
+  Import took 0.084338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.921350 seconds.
+  path: Assets/Prefabs/Hidroterapia.prefab
+  artifactKey: Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hidroterapia.prefab using Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e8cd4490a8052b6466bf5086dee031') in 0.264895 seconds 
+  Import took 0.310663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4715.805031 seconds.
+  path: Assets/Prefabs/Matico.prefab
+  artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ebb9f64e82668ed509325dcfb8602d') in 0.131911 seconds 
+  Import took 0.169829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.476712 seconds.
+  path: Assets/Prefabs/Ozonoterapia.prefab
+  artifactKey: Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ozonoterapia.prefab using Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038f55507a41905e9350e8451cc1c973') in 3.273466 seconds 
+  Import took 3.302976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.580157 seconds.
+  path: Assets/Prefabs/WiraWira.prefab
+  artifactKey: Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WiraWira.prefab using Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4de4de2398cdedb4df7c1dc98c19d3') in 0.558505 seconds 
+  Import took 0.603326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 699.211073 seconds.
+  path: Assets/Prefabs/Manzanilla.prefab
+  artifactKey: Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Manzanilla.prefab using Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a47a58eb3fd64ddd4020d44db6b44a') in 0.527123 seconds 
+  Import took 0.558068 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.3 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 3609.666800 ms (FindLiveObjects: 0.600200 ms CreateObjectMapping: 0.407200 ms MarkObjects: 3608.627600 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2581.193418 seconds.
+  path: Assets/Prefabs/Ozonoterapia.prefab
+  artifactKey: Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ozonoterapia.prefab using Guid(601596933fb318b41b2540f9d6c80eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0688c28a42ed9c136b67d05b8a079a') in 6.655501 seconds 
+  Import took 6.933207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.905419 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb4c3425d92eb6bba26197bf360d9e5') in 3.174220 seconds 
+  Import took 3.248048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.389092 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4414cce5e20d4ed6e7993f363616b6e') in 0.815701 seconds 
+  Import took 0.854959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 504.538498 seconds.
+  path: Assets/Prefabs/Eucalipto.prefab
+  artifactKey: Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eucalipto.prefab using Guid(3526e7b57e5ed4240b8ef501eb1672b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ede2ace83916e95c8a231d6e0aabe7b') in 0.274480 seconds 
+  Import took 0.308142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.986849 seconds.
+  path: Assets/Prefabs/Hidroterapia.prefab
+  artifactKey: Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Hidroterapia.prefab using Guid(5fd15e3248da5c64d942ec88d28615fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a294a1b0cb6a65f0135b6dc2d7cbeeac') in 0.674509 seconds 
+  Import took 0.698043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.614673 seconds.
+  path: Assets/Prefabs/Manzanilla.prefab
+  artifactKey: Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Manzanilla.prefab using Guid(f19c4ba68d8264040b92be02574c37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b6c6bc0ebe20a07c7806b466ed8bf') in 0.466357 seconds 
+  Import took 0.514195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.412600 seconds.
+  path: Assets/Prefabs/Matico.prefab
+  artifactKey: Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Matico.prefab using Guid(bb23f6706e3b95d4fb0920a3d4b842f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817367fa460c751f81cdb373a02e26fc') in 0.196645 seconds 
+  Import took 0.231146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.795271 seconds.
+  path: Assets/Prefabs/WiraWira.prefab
+  artifactKey: Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WiraWira.prefab using Guid(244f00039f11e93489594b435b89904f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4e281fa8776a1af6b2b625eb34651c') in 0.681201 seconds 
+  Import took 0.690404 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 298.787300 ms (FindLiveObjects: 2.435800 ms CreateObjectMapping: 0.184100 ms MarkObjects: 296.121000 ms  DeleteObjects: 0.044900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13058.582511 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c656d16296c27862546e0344f0e50f7') in 0.903229 seconds 
+  Import took 0.939353 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.0 MB.
+System memory in use after: 111.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 32.302200 ms (FindLiveObjects: 3.609300 ms CreateObjectMapping: 0.375100 ms MarkObjects: 28.245600 ms  DeleteObjects: 0.070900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3272.167242 seconds.
+  path: Assets/Prefabs/WiraWiraCompleto.fbx
+  artifactKey: Guid(e46a806ed4982d148ab3906525fe7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/WiraWiraCompleto.fbx using Guid(e46a806ed4982d148ab3906525fe7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5af92540b90cfd5e74b9835278138f') in 0.954164 seconds 
+  Import took 0.978007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.891204 seconds.
+  path: Assets/Prefabs/Aromaterapia.prefab
+  artifactKey: Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Aromaterapia.prefab using Guid(b78e7112e60a24d439f7ad13ffa51212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcbc1af3fb456361b8e0b3254d382e1') in 0.786156 seconds 
+  Import took 0.819939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.860490 seconds.
+  path: Assets/Models/tropical-plant-2
+  artifactKey: Guid(2dab8f183d2561f4e845d218431468c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/tropical-plant-2 using Guid(2dab8f183d2561f4e845d218431468c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5739683dfa5c15e31c856f75d728f011') in 0.003887 seconds 
+  Import took 0.010486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.173979 seconds.
+  path: Assets/Models/potato-plants-collection
+  artifactKey: Guid(5640c235a8de52446b9147a15a2323ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/potato-plants-collection using Guid(5640c235a8de52446b9147a15a2323ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0703135dcdb876b5a41025d700ed7bd1') in 0.040399 seconds 
+  Import took 0.058391 seconds .
 

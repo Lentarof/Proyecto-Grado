@@ -22,29 +22,50 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Plants
-    m_MainAsset: {fileID: 11400000, guid: 61e60c1a483c05e43aa2b9cc6789b9ba, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 61e60c1a483c05e43aa2b9cc6789b9ba, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ad3ec98dfc4dce545b27475913aa5856
     m_Address: Assets/AddressableAssets/Items/Manzanilla.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Plants
-    m_MainAsset: {fileID: 11400000, guid: ad3ec98dfc4dce545b27475913aa5856, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: ad3ec98dfc4dce545b27475913aa5856, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: bf4f397982df1dc49a8b83910142dc87
     m_Address: Assets/AddressableAssets/Items/Matico.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Plants
-    m_MainAsset: {fileID: 11400000, guid: bf4f397982df1dc49a8b83910142dc87, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: bf4f397982df1dc49a8b83910142dc87, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 762c9b92915aacc48b1f8239244f14a9
     m_Address: Assets/AddressableAssets/Items/WiraWira.asset
     m_ReadOnly: 0
     m_SerializedLabels:
     - Plants
-    m_MainAsset: {fileID: 11400000, guid: 762c9b92915aacc48b1f8239244f14a9, type: 2}
-    m_TargetAsset: {fileID: 11400000, guid: 762c9b92915aacc48b1f8239244f14a9, type: 2}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7fd9b523fbcf7bb4baf411639d3d70c5
+    m_Address: Assets/AddressableAssets/Items/Aromaterapia.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Plants
+    m_MainAsset: {fileID: 11400000, guid: 7fd9b523fbcf7bb4baf411639d3d70c5, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 7fd9b523fbcf7bb4baf411639d3d70c5, type: 2}
+  - m_GUID: dc9e300ecdfa91945917bce4685d26e0
+    m_Address: Assets/AddressableAssets/Items/Hidroterapia.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Plants
+    m_MainAsset: {fileID: 11400000, guid: dc9e300ecdfa91945917bce4685d26e0, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: dc9e300ecdfa91945917bce4685d26e0, type: 2}
+  - m_GUID: 136e8c565ea806d42be5708691d51b35
+    m_Address: Assets/AddressableAssets/Items/Ozonoterapia.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Plants
+    m_MainAsset: {fileID: 11400000, guid: 136e8c565ea806d42be5708691d51b35, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: 136e8c565ea806d42be5708691d51b35, type: 2}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 594fa8d943b64db43889dcb3daa4b3ec, type: 2}
   m_SchemaSet:
