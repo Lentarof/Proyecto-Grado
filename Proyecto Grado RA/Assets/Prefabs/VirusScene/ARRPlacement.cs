@@ -5,7 +5,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
 public class ARRPlacement : MonoBehaviour
-{
+{   
     
     public GameObject UIArrows;
     public GameObject arObjectToSpawn;
@@ -35,7 +35,7 @@ public class ARRPlacement : MonoBehaviour
         {
             ARPlaceObject();
             shoot.SetActive(true);
-            UIArrows.SetActive(true);
+                UIArrows.SetActive(true);
             //canvasObject.SetActive(true);
         }
         
