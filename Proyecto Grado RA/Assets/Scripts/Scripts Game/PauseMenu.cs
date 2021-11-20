@@ -10,21 +10,22 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIspaused = false;
     public GameObject pausedPanelMenu;
     public GameObject pauseButtonUI;
-
+    
+    
     private string sceneMenu = "Menu";
     
     
     // Update is called once per frame
     void Update()
     {
-        if (GameIspaused == true)
+       /* if (GameIspaused == true)
         {
             Resume();
         }
         else
         {
             Pause();
-        }
+        }*/
     }
     public void Resume()
     {

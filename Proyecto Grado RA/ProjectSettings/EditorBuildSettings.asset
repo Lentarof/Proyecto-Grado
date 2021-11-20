@@ -6,8 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b4e26ef79419b044b88d087c02ddf4cd
+  - enabled: 1
+    path: Assets/Scenes/Virus.unity
+    guid: 01e0d800193437e42a5ea99ee8d12c42
+  - enabled: 1
     path: Assets/Scenes/Gallery.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Game.unity
+    guid: a015926bdd12d0c4288706660fdd6929
+  - enabled: 0
+    path: Assets/Scenes/MiniGame.unity
+    guid: a9b3d3bc1a0bf314aa2f1c9406177402
+  - enabled: 0
+    path: Assets/Scenes/MiniGameEnviroment.unity
+    guid: 69a3c2b7f67f8794aaccefa158281c2b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 150674bd878abfa40ab544a775f60922, type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: f550733bb5337e048b48f217ca1f9615, type: 2}

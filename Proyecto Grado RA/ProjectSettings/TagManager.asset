@@ -7,6 +7,25 @@ TagManager:
   - PlantGallery
   - Floor
   - House
+  - PlayerSphere
+  - PlantGame
+  - ScoreCanvas
+  - ScoreEu
+  - ScoreMan
+  - ScoreMat
+  - ScoreWir
+  - Tos
+  - Gripe
+  - Fiebre
+  - Neumonia
+  - Rabbit
+  - Nauseas
+  - Germen
+  - TimerSlider
+  - SliderFill
+  - TimerText
+  - GameOverText
+  - EnvironmentVirus
   layers:
   - Default
   - TransparentFX
@@ -14,7 +33,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - ARMeshLiDAR
   - 
   - 
   - 

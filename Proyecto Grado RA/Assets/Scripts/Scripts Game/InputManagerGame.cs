@@ -7,7 +7,7 @@ using UnityEngine.XR.ARFoundation;
 public class InputManagerGame : MonoBehaviour
 {
    // [SerializeField] public Camera arCam;
-   [SerializeField] private Camera arCam; 
+    private Camera arCam; 
    [SerializeField] private ARRaycastManager _raycastManager;
     
     private GameObject crosshair; 
@@ -37,6 +37,7 @@ public class InputManagerGame : MonoBehaviour
         
         if (IsPointerOverUI(touch)) return;
 
+          
          Ray ray = arCam.ScreenPointToRay(touch.position);  //Presionand la pantalla del telefono donde se originara el objeto
          if (_raycastManager.Raycast(ray, _hits))
          {
